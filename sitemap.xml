@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://bootloader.me/photo/index.html</loc>
+    
+    <lastmod>2017-05-22T02:26:28.923Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bootloader.me/photo/tool.js</loc>
+    
+    <lastmod>2017-05-22T02:24:24.905Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://bootloader.me/baidu_verify_y8hW7vMtHH.html</loc>
     
     <lastmod>2017-05-22T01:54:16.624Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://bootloader.me/about/index.html</loc>
     
     <lastmod>2017-05-21T17:35:02.961Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://bootloader.me/photo/index.html</loc>
-    
-    <lastmod>2017-05-21T17:34:54.271Z</lastmod>
     
   </url>
   
