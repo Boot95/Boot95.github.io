@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+    
+    
+    
+  <url>
+    <loc>http://bootloader.me/2017/05/03/%E5%B0%8F%E7%99%BD%E6%90%AD%E5%BB%BAHexo/</loc>
+    <lastmod>2017-05-21T17:31:43.695Z</lastmod>
+    <data>
+        <display>
+        <title>小白搭建Hexo（一）</title>
+        <pubTime>2017-05-03T14:27:59.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://bootloader.me/2017/05/21/%E8%A1%A8%E5%8D%95/</loc>
+    <lastmod>2017-05-21T17:31:19.184Z</lastmod>
+    <data>
+        <display>
+        <title>Bootstarp 表单</title>
+        <pubTime>2017-05-21T12:52:38.000Z</pubTime>
+        
+        <tag>Bootatsrp</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://bootloader.me/2017/05/21/Bootstarp/</loc>
+    <lastmod>2017-05-21T17:31:06.217Z</lastmod>
+    <data>
+        <display>
+        <title>Bootstarp</title>
+        <pubTime>2017-05-21T01:16:12.000Z</pubTime>
+        
+        <tag>Bootatsrp</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://bootloader.me/2017/05/02/%E4%BD%A0%E5%A5%BD/</loc>
+    <lastmod>2017-05-02T01:52:20.771Z</lastmod>
+    <data>
+        <display>
+        <title>你好</title>
+        <pubTime>2017-05-02T01:52:20.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
