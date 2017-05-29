@@ -94,7 +94,7 @@
 <meta property="og:url" content="http://bootloader.me/2017/05/28/产生随机数的几种方法/index.html">
 <meta property="og:site_name" content="Bootloader">
 <meta property="og:description" content="① 产生随机数 使用JS内置的Math.random()方法产生0至1的随机数(包含0，不包含1) 1var num = Math.random();">
-<meta property="og:updated_time" content="2017-05-28T13:41:28.426Z">
+<meta property="og:updated_time" content="2017-05-29T05:19:52.292Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js产生随机数的几种方法">
 <meta name="twitter:description" content="① 产生随机数 使用JS内置的Math.random()方法产生0至1的随机数(包含0，不包含1) 1var num = Math.random();">
@@ -368,7 +368,7 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> num = <span class="built_in">Math</span>.round(<span class="built_in">Math</span>.random());</div></pre></td></tr></table></figure>
 <h2 id="④产生在规定范围之内的随机数"><a href="#④产生在规定范围之内的随机数" class="headerlink" title="④产生在规定范围之内的随机数"></a>④产生在规定范围之内的随机数</h2><p>这样就需要规定一个最小的整数和一个最大的整数</p>
 <p>暂时以minnum和maxnum来命名。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.random() * (maxnum - minnum) + minnum</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*(maxnum-minnum+<span class="number">1</span>)+minnum);</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -533,15 +533,6 @@
             </div>
           
 
-          
-            
-            
-            <div class="site-state-item site-state-categories">
-              
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">分类</span>
-              
-            </div>
           
 
           
