@@ -87,17 +87,17 @@
 
 
 
-<meta name="description" content="Javascript与XMLW3C解析XML→DOMW3C使用DOMParser类型解析XML文档 在解析XML文档之前，首先要创建一个DOMParser实例，然后调用parseFromString()方法。这个方法始终传入两个参数：①要解析的XML字符串；②内容类型（内容类型始终是text/xml）。返回的值是Document实例。 12var parser = new DOMParser();">
+<meta name="description" content="Javascript与XML">
 <meta name="keywords" content="Javascript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="xml">
 <meta property="og:url" content="http://bootloader.me/2017/06/15/xml/index.html">
 <meta property="og:site_name" content="Bootloader">
-<meta property="og:description" content="Javascript与XMLW3C解析XML→DOMW3C使用DOMParser类型解析XML文档 在解析XML文档之前，首先要创建一个DOMParser实例，然后调用parseFromString()方法。这个方法始终传入两个参数：①要解析的XML字符串；②内容类型（内容类型始终是text/xml）。返回的值是Document实例。 12var parser = new DOMParser();">
-<meta property="og:updated_time" content="2017-06-15T15:18:55.538Z">
+<meta property="og:description" content="Javascript与XML">
+<meta property="og:updated_time" content="2017-06-15T15:19:55.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="xml">
-<meta name="twitter:description" content="Javascript与XMLW3C解析XML→DOMW3C使用DOMParser类型解析XML文档 在解析XML文档之前，首先要创建一个DOMParser实例，然后调用parseFromString()方法。这个方法始终传入两个参数：①要解析的XML字符串；②内容类型（内容类型始终是text/xml）。返回的值是Document实例。 12var parser = new DOMParser();">
+<meta name="twitter:description" content="Javascript与XML">
 
 
 
@@ -357,7 +357,8 @@
       
 
       
-        <h1 id="Javascript与XML"><a href="#Javascript与XML" class="headerlink" title="Javascript与XML"></a>Javascript与XML</h1><h2 id="W3C"><a href="#W3C" class="headerlink" title="W3C"></a>W3C</h2><h3 id="解析XML→DOM"><a href="#解析XML→DOM" class="headerlink" title="解析XML→DOM"></a>解析XML→DOM</h3><p>W3C使用<code>DOMParser</code>类型解析XML文档</p>
+        <h1 id="Javascript与XML"><a href="#Javascript与XML" class="headerlink" title="Javascript与XML"></a>Javascript与XML</h1><a id="more"></a>
+<h2 id="W3C"><a href="#W3C" class="headerlink" title="W3C"></a>W3C</h2><h3 id="解析XML→DOM"><a href="#解析XML→DOM" class="headerlink" title="解析XML→DOM"></a>解析XML→DOM</h3><p>W3C使用<code>DOMParser</code>类型解析XML文档</p>
 <p>在解析XML文档之前，首先要创建一个<code>DOMParser</code>实例，然后调用<code>parseFromString()</code>方法。这个方法始终传入两个参数：①要解析的XML字符串；②内容类型（内容类型始终是<code>text/xml</code>）。返回的值是Document实例。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> parser = <span class="keyword">new</span> DOMParser();</div><div class="line"><span class="keyword">var</span> xmldom = parser.parseFromString(<span class="string">"&lt;root&gt;&lt;user/&gt;&lt;/root&gt;"</span>,<span class="string">"text/xml"</span>);</div></pre></td></tr></table></figure>
 <h3 id="序列化XML"><a href="#序列化XML" class="headerlink" title="序列化XML"></a>序列化XML</h3><p><code>XMLSerializer</code>类型是与<code>DOMParser</code>提供相反的功能。</p>
