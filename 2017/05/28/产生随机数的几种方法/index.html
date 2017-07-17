@@ -94,7 +94,7 @@
 <meta property="og:url" content="http://bootloader.me/2017/05/28/产生随机数的几种方法/index.html">
 <meta property="og:site_name" content="Bootloader">
 <meta property="og:description" content="① 产生随机数 使用JS内置的Math.random()方法产生0至1的随机数(包含0，不包含1) 1var num = Math.random();">
-<meta property="og:updated_time" content="2017-05-29T05:19:52.292Z">
+<meta property="og:updated_time" content="2017-07-17T09:18:56.414Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js产生随机数的几种方法">
 <meta name="twitter:description" content="① 产生随机数 使用JS内置的Math.random()方法产生0至1的随机数(包含0，不包含1) 1var num = Math.random();">
@@ -368,7 +368,9 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> num = <span class="built_in">Math</span>.round(<span class="built_in">Math</span>.random());</div></pre></td></tr></table></figure>
 <h2 id="④产生在规定范围之内的随机数"><a href="#④产生在规定范围之内的随机数" class="headerlink" title="④产生在规定范围之内的随机数"></a>④产生在规定范围之内的随机数</h2><p>这样就需要规定一个最小的整数和一个最大的整数</p>
 <p>暂时以minnum和maxnum来命名。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*(maxnum-minnum+<span class="number">1</span>)+minnum);</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*(maxnum-minnum+<span class="number">1</span>))+minnum;</div></pre></td></tr></table></figure>
+<h2 id="⑤产生在规定范围内的随机数（不包含最大值）"><a href="#⑤产生在规定范围内的随机数（不包含最大值）" class="headerlink" title="⑤产生在规定范围内的随机数（不包含最大值）"></a>⑤产生在规定范围内的随机数（不包含最大值）</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random()*(max-min))+min;</div></pre></td></tr></table></figure>
+<h2 id="⑥产生在规定范围内的随机数（不包含最大值）"><a href="#⑥产生在规定范围内的随机数（不包含最大值）" class="headerlink" title="⑥产生在规定范围内的随机数（不包含最大值）"></a>⑥产生在规定范围内的随机数（不包含最大值）</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.ceil(<span class="built_in">Math</span>.random()*(max-min))+min;</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -599,7 +601,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#①-产生随机数"><span class="nav-number">1.</span> <span class="nav-text">① 产生随机数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#②-产生随机整数"><span class="nav-number">2.</span> <span class="nav-text">② 产生随机整数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#向下取整的随机整数"><span class="nav-number">2.1.</span> <span class="nav-text">向下取整的随机整数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#向上取整的随机整数"><span class="nav-number">2.2.</span> <span class="nav-text">向上取整的随机整数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#③-产生四舍五入的整数"><span class="nav-number">3.</span> <span class="nav-text">③ 产生四舍五入的整数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#④产生在规定范围之内的随机数"><span class="nav-number">4.</span> <span class="nav-text">④产生在规定范围之内的随机数</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#①-产生随机数"><span class="nav-number">1.</span> <span class="nav-text">① 产生随机数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#②-产生随机整数"><span class="nav-number">2.</span> <span class="nav-text">② 产生随机整数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#向下取整的随机整数"><span class="nav-number">2.1.</span> <span class="nav-text">向下取整的随机整数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#向上取整的随机整数"><span class="nav-number">2.2.</span> <span class="nav-text">向上取整的随机整数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#③-产生四舍五入的整数"><span class="nav-number">3.</span> <span class="nav-text">③ 产生四舍五入的整数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#④产生在规定范围之内的随机数"><span class="nav-number">4.</span> <span class="nav-text">④产生在规定范围之内的随机数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#⑤产生在规定范围内的随机数（不包含最大值）"><span class="nav-number">5.</span> <span class="nav-text">⑤产生在规定范围内的随机数（不包含最大值）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#⑥产生在规定范围内的随机数（不包含最大值）"><span class="nav-number">6.</span> <span class="nav-text">⑥产生在规定范围内的随机数（不包含最大值）</span></a></li></ol></div>
             
 
           </div>
